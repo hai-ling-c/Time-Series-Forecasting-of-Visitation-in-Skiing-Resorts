@@ -2,9 +2,9 @@
 This repository is part of the work completed during InterUniversity Datathon 2025 organised by student societies from 4 leading universities in Australia. It aims to provide forecasts on the number of visitor days in 2026 for 9 different skiiing resorts in Australia using Exponential Smoothing model, ARIMA model and RNN model.
 
 ## Table of Contents
-- [Visitation data information](https://github.com/hai-ling-c/Time-Series-Forecasting-of-Visitation-in-Skiing-Resorts/edit/main/README.md#visitation-data-information)
-- [Python packages requirements](https://github.com/hai-ling-c/Time-Series-Forecasting-of-Visitation-in-Skiing-Resorts/edit/main/README.md#python-package-requirements)
-- [Overview](https://github.com/hai-ling-c/Time-Series-Forecasting-of-Visitation-in-Skiing-Resorts/edit/main/README.md#overview)
+- [Visitation data information](#visitation-data-information)
+- [Python packages requirements](#python-package-requirements)
+- [Overview](#overview)
 
 ## Visitation data information
 Visitation Data is measured in visitor days. A "visitor day" is a unit of measure used to quantify the use of a site or facility by visitors, typically representing 12 visitor hours. It can refer to a single person spending 12 hours or multiple people contributing to the 12-hour total. This term is often used by state and federal agencies to track and analyse visitor activity, particularly in recreation areas.
