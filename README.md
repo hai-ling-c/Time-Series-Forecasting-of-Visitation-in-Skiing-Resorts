@@ -13,7 +13,7 @@ The data has been provided on a week-by-week basis based on the ski season. The 
 | Ski season  | Dates |
 | ------------- | ------------- |
 | Week 1  | 9-Jun  |
-| Week 2  | 16-Jun  |
+| Week 2  | 16-Jun   
 | Week 3	| 23-Jun |
 | Week 4 | 30-Jun |
 | Week 5 | 7-Jul |
@@ -37,6 +37,14 @@ Week 15	| 15-Sep
 3. Forecast using AutoARIMA
 4. Forecast using RNN-LSTM
 ### 4. Model evaluation and backtesting
-### 5. Plots comparing Exponential Smoothing and AutoARIMA forecasts (for slide deck)
+### 5. Plots comparing Exponential Smoothing and AutoARIMA forecasting results
+### 6. Calculating visitation index
+Formula to calculate the index
+$$I_{\text{visitation}} = \exp\left(-0.159 * \text{No. of Visitor days}\right)$$
+
+Note that:
+- The coefficient of '-0.159' comes from the result in https://www.tandfonline.com/doi/full/10.1080/10548408.2020.1763229#d1e897. 
+- The exponential function is used to restrict the index to take values between 0 and 1.
+- The formula has not been validated and the numbers were only used to rank resorts.
 
 
